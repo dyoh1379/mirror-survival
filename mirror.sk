@@ -1,0 +1,4 @@
+on damage:
+	if attacker is player:
+		damage attacker by damage
+		send action bar "&c&l%damage*2% damage" to attacker
